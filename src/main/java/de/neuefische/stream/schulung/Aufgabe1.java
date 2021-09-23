@@ -55,9 +55,6 @@ public class Aufgabe1 {
                 .map(input-> new Student(input[1], input[2], input[3]))
                 .forEach(System.out::println);
 
-
-
-
 //        final int[] zahlen = new int[]{9, 1, 0, 2, 7, 3, 6, 4, 5};
 //
 //        Arrays.stream(zahlen)
@@ -71,13 +68,5 @@ public class Aufgabe1 {
 //                .sum());
 //
 //        System.out.println(IntStream.of(zahlen).reduce(1,(x,y)->x*y));
-
-
-
-
-
-
-
-
     }
 }
